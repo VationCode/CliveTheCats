@@ -3899,7 +3899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"TrapDoorToOpen","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsOn","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsOn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3167424557500690278}
@@ -14620,11 +14620,12 @@ PrefabInstance:
     - target: {fileID: 6597132627884882328, guid: ec394aa733c6b4f4c83a87873bb8280b, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: 2329ebef3dadc8649a72836eca9ee5be, type: 2}
+      objectReference: {fileID: 11400000, guid: 7acc660443974c342ae2516db2c0b1f8, type: 2}
     - target: {fileID: 6597132627884882329, guid: ec394aa733c6b4f4c83a87873bb8280b, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AudioClip","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CanFall","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6597132627884882329, guid: ec394aa733c6b4f4c83a87873bb8280b, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -14843,10 +14844,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7693859662513410793, guid: 2651a8aeaac40cc44935b9eb3fd5c774, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3167424557500690279}
+      addedObject: {fileID: 3167424557500690280}
     - targetCorrespondingSourceObject: {fileID: 7693859662513410793, guid: 2651a8aeaac40cc44935b9eb3fd5c774, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3167424557500690280}
+      addedObject: {fileID: 3167424557500690279}
     - targetCorrespondingSourceObject: {fileID: 7693859662513410793, guid: 2651a8aeaac40cc44935b9eb3fd5c774, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3167424557500690281}
