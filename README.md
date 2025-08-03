@@ -4,6 +4,9 @@ UnityLearn 학습
 
 비주얼 스크립팅(스크립트 머신+ 상태 머신)을 활용한 퍼즐 게임
 
+# Ver
+6.0이상
+
 Youtube : https://youtu.be/9EafAb4AAAc
 
 
